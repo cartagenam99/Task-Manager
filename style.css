@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light Pink */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff80ab; /* Softer Pink */
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff80ab; /* Softer Pink */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff80ab; /* Softer Pink */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker Pink */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ffb2dd; /* Lighter Pink */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Custom checkbox styles */
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); /* Make it slightly larger */
+}
+
+/* Add additional girly and cute styling as needed */
